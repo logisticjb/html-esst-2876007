@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" id="top">
     <head>
-      <!-- Infos über diese Webseite -->
+        <!-- Infos über diese Webseite -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Dieses Element macht die Darstellung Respomsive (passt die Breite also an die breite von dem Devise an). -->
 
@@ -9,17 +9,23 @@
         <meta name="description" content="In diesem Kurs lernen Sie das Erstellen und gestalten von Webseiten mit HTML und CSS.">
         
         <link href="style.css" rel="stylesheet">
-
     </head>
     <body>
-      <header>
-        <h1>HTML + CSS</h1>
+      <header class="site-header">
+        <h1><img src="html-und-css-logo-444.png" alt="HTML + CSS" width="222" height="36"></h1>
         <p>Webseiten erstellen und gestalten</p>
       </header>
-      <nav>
-
+      
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Über uns</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
       </nav>
-      <main>
+      
+      <main class="site-content" id="content">
         <h2>Willkommen</h2>
         <p>Webseiten bestehen aus <strong> rechteckigen Kästchen</strong>. Alles Runde ist entweder Trick, Grafik oder beides.</p>
         <p>Beim Umgang mit diesen Kästchen haben <em>HTML</em> und <em>CSS</em> klar getrennte Aufgaben:</p>
@@ -28,14 +34,11 @@
           <li>CSS gestaltet die Kästchen und die Inhalte darin.</li>
         </ul>
         
-        <p>Beide Sprachen arbeiten bei der Erstellung und Gestaltung von Webseiten emg zusammen.</p>
-        <ol>
-          <li>Punkt eins</li>
-          <li>Punkt zwei</li>
-        </ol>
+        <p>Beide Sprachen arbeiten bei der Erstellung und Gestaltung von Webseiten emg zusammen. Besuchen Sie <a href="https://www.google.de" target="_blank" rel="noreferrer noopener">die Website zum Kurs</a> für weitere weitere Informationen. </p>
+        
       </main>
-      <footer>
-
+      <footer class="site-footer">
+        <a href="#top">Nach oben</a>
       </footer>
     </body>
 </html>

@@ -1,4 +1,4 @@
-/* Sylesheet für die Übungswebsite */
+/* Sylesheet für die Übungswebsite
 
 body {
     background-color: floralwhite;
@@ -9,4 +9,34 @@ h1 {
     background-color: steelblue;
     color: white;
     padding: 1rem;
+} */
+.site-nav, .site-footer {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+}
+.site-nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+.site-nav a, footer a {
+    color: white;
+    text-decoration: none;
+}
+.site-footer {
+    text-align: right;
+}
+html {
+    scroll-behavior: smooth;
+}
+.site-header h1 {
+    margin-bottom: 0;
+}
+.site-header p {
+    margin-top: 0;
 }
