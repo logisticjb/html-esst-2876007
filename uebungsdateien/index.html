@@ -11,6 +11,41 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+      <h1>Zitate erstellen</h1>
+      
+      <figure>
+        <blockquote>
+          <p>I like deadlines. I like the whooshing sound they make when they go by.</p>
+        </blockquote>
+        <figcaption>
+          - Douglas Adams, <cite>The Salmon of Doubt</cite>
+        </figcaption>
+      </figure>
+
+      <style>
+        figure {
+          background-color: whitesmoke;
+          padding: 1;
+          border-left: 5px solid steelblue;
+          margin: 0;
+        }
+        blockquote {
+          margin: 0;
+        }
+        address {
+          font-style: normal;
+        }
+        del {
+          background-color: pink;
+        }
+        ins {
+          background: lightgreen;
+          text-decoration: none;
+        }
+      </style>
+
+
+
       <header class="site-header">
         <h1><img src="html-und-css-logo-444.png" alt="HTML + CSS" width="222" height="36"></h1>
         <p>Webseiten erstellen und gestalten</p>
@@ -25,34 +60,83 @@
         </ul>
       </nav>
       
-      <main class="site-content" id="content">
+      <div class="container">
+        <main class="site-content" id="content">
         
-        <section class="content-intro">
-          <h2>Willkommen</h2>
-          <p>Webseiten bestehen aus <strong> rechteckigen Kästchen</strong>. Alles Runde ist entweder Trick, Grafik oder beides.</p>
-          <p>Beim Umgang mit diesen Kästchen haben <em>HTML</em> und <em>CSS</em> klar getrennte Aufgaben:</p>
-          <ul>
-            <li>HTML strukturiert die Webseite und erstellt die Kästchen.</li>
-            <li>CSS gestaltet die Kästchen und die Inhalte darin.</li>
-          </ul>
-          
-          <p>Beide Sprachen arbeiten bei der Erstellung und Gestaltung von Webseiten emg zusammen. 
-            Besuchen Sie <a href="https://www.google.de" target="_blank" rel="noreferrer noopener">
-              die Website zum Kurs</a> für weitere weitere Informationen. </p>
-          
-        </section>
-        <section class="infoboxen">
+          <section class="content-intro">
+            <h2>Willkommen</h2>
+            <p>Webseiten bestehen aus <strong> rechteckigen Kästchen</strong>. Alles Runde ist entweder Trick, Grafik oder beides.</p>
+            <p>Beim Umgang mit diesen Kästchen haben <em>HTML</em> und <em>CSS</em> klar getrennte Aufgaben:</p>
+            <ul>
+              <li>HTML strukturiert die Webseite und erstellt die Kästchen.</li>
+              <li>CSS gestaltet die Kästchen und die Inhalte darin.</li>
+            </ul>
+            
+            <p>Beide Sprachen arbeiten bei der Erstellung und Gestaltung von Webseiten emg zusammen. 
+              Besuchen Sie <a href="https://www.google.de" target="_blank" rel="noreferrer noopener">
+                die Website zum Kurs</a> für weitere weitere Informationen. </p>
+            
+          </section>
+          <section class="infoboxen">
+  
+            <h2>Die Bereiche dieser Website</h2>
+            <article class="infobox">
+              <h3>News</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+              <p><a href="#">Ab zum Blog</a></p>
+            </article>
+  
+            <article class="infobox">
+              <h3>Über uns</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+              <p><a href="#">Wer sind wir</a></p>
+            </article>
+            
+            <article class="infobox">
+              <h3>Kontakte</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+              <p><a href="#">Hallo sagen</a></p>
+            </article>
+  
+          </section>
+  
+        </main>
+  
+        <aside class="linklisten">
+          <section class="tools">
+            <h3>Tools</h3>
+            <ul>
+              <li><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener">VS Code</a></li>
+              <li><a href="https://www.blindtextgenerator.de/" target="_blank" rel="noreferrer noopener">Blindtextgenerator</a></li>
+              <li><a href="https://validator.w3.org/" target="_blank" rel="noreferrer noopener">HTML-Validator</a></li>
+            </ul>
+          </section>
+  
+          <section class="referenzen">
+            <h3>Referenzen</h3>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element" target="_blank" rel="noreferrer noopener">HTML-Elemente</a></li>
+              <li><a href="https://developer.mozilla.org/en/docs/Web/HTML/Attributes" target="_blank" rel="noreferrer noopener">HTML-Attribute</a></li>
+              <li><a href="https://wiki.selfht,l.ürg/wiki/Grafik/Farbe/Farbpaletten#Farbnamen" target="_blank" rel="noreferrer noopener">Farbname</a></li>
+            </ul>
+          </section>
+        </aside>
+      </div>
 
-          <h2>Die Bereiche dieser Website</h2>
-          <article class="infobox">
-            <h3>News</h3>
-            <p>Lorem Ipsum dolor sit amet, consectetuer...</p>
-            <p><a href="#">Ab zum Blog</a></p>
-          </article>
+      <h1>Kontaktadresse erstellen</h1>
 
-        </section>
+      <address>
+        <p>
+          Waldemar Weber<br>
+          Kästchenweg 12<br>
+          01234 Boxberg
+        </p>
+        <p>Telefon: <a href="tel:+49.10.634.5789">+49 10 634 5789</a></p>
+      </address>
+      <br>
 
-      </main>
+      <h1>Änderungen am Text dokumentieren</h1>
+      <p>1803 komponierte <del>Mozart</del> <ins>Beethoven</ins> die ersten Skizzen für seine 5. Symphonie.</p>
 
       <footer class="site-footer">
         <a href="#top">Nach oben</a>

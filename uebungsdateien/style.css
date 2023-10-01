@@ -15,6 +15,7 @@ h1 {
     color: white;
     padding: 0.5rem;
     margin: 1rem;
+    text-align: center;
 }
 .site-nav ul {
     padding: 0;
@@ -39,4 +40,19 @@ html {
 }
 .site-header p {
     margin-top: 0;
+}
+.infoboxen {
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.infobox {
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+.container {
+    background-color: aliceblue;
+    padding: 1rem;
 }
